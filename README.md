@@ -7,9 +7,9 @@ Link to the challenge and data: [Air Pollution Challenge](https://zindi.africa/c
 ## Context and Objective
 This challenge provides the contributors with data of different sources to predict the air quality by PM2.5 particulate matter concentration for different cities on a daily basis. PM2.5 are very harmful air pollutants and are usually measured by ground-based sensors. To overcome the need of these ground-based sensors, the challenge aims to get a precise prediction. Therefore, data of the Global Forecast System and the Sentinel 5P satellite of three months are included.
 
-## Stacking of Heterogeneous Weak Learners and XGBoost
+## Stacking of Heterogeneous Weak Learners and RandomForest
 The two final trained models can be found in the `my_model` folder.
-This repository contains an implementation of stacking, ensemble learning technique that combines the predictions of multiple base models (weak learners) to improve predictive performance. In this implementation, stacking is combined with RandomForest to create a robust predictive model. The stacking ensemble consists of three base estimators and one final estimator:
+This repository contains an implementation of stacking, an ensemble learning technique that combines the predictions of multiple base models (weak learners) to improve predictive performance. In this implementation, stacking is combined with RandomForest to create a robust predictive model. The stacking ensemble consists of three base estimators and one final estimator:
 
 **Base Estimators:**\
 Ridge Regression\
